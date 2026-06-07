@@ -1,0 +1,235 @@
+{
+  "id": 7,
+  "title": "درس هفتم: نظم در آفرینش",
+  "sessions": [
+    {
+      "type": "reading",
+      "title": "جلسه اول: قرائت سوره الرحمن (آیات ۱ تا ۱۳)",
+      "verses": [
+        {
+          "id": "55:1",
+          "text_arabic": "الرَّحْمَنُ",
+          "text_persian": "خداوند بخشنده،",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055001.mp3"
+        },
+        {
+          "id": "55:2",
+          "text_arabic": "عَلَّمَ الْقُرْآنَ",
+          "text_persian": "قرآن را یاد داد (تعلیم داد)،",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055002.mp3"
+        },
+        {
+          "id": "55:3",
+          "text_arabic": "خَلَقَ الْإِنسَانَ",
+          "text_persian": "انسان را آفرید،",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055003.mp3"
+        },
+        {
+          "id": "55:4",
+          "text_arabic": "عَلَّمَهُ الْبَيَانَ",
+          "text_persian": "به او سخن گفتن (و بیان) را آموخت.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055004.mp3"
+        },
+        {
+          "id": "55:5",
+          "text_arabic": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
+          "text_persian": "خورشید و ماه با حساب (منظم و دقیق) در حرکتند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055005.mp3"
+        },
+        {
+          "id": "55:6",
+          "text_arabic": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
+          "text_persian": "و گیاهان و درختان (برای او) سجده می‌کنند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055006.mp3"
+        },
+        {
+          "id": "55:7",
+          "text_arabic": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+          "text_persian": "و آسمان را برافراشت و وسیله سنجش (قانون و ترازو) را قرار داد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055007.mp3"
+        },
+        {
+          "id": "55:8",
+          "text_arabic": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
+          "text_persian": "تا در میزان (وزن کردن) طغیان نکنید (و از حد نگذرید).",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055008.mp3"
+        },
+        {
+          "id": "55:9",
+          "text_arabic": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
+          "text_persian": "و وزن را به عدالت برپا دارید و در میزان کم نگذارید (کم‌فروشی نکنید).",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055009.mp3"
+        },
+        {
+          "id": "55:10",
+          "text_arabic": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+          "text_persian": "و زمین را برای زندگی مخلوقات قرار داد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055010.mp3"
+        },
+        {
+          "id": "55:11",
+          "text_arabic": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
+          "text_persian": "در آن میوه است و نخل‌های دارای غلاف (شکوفه).",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055011.mp3"
+        },
+        {
+          "id": "55:12",
+          "text_arabic": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
+          "text_persian": "و دانه‌های دارای پوسته و گیاهان خوشبو.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055012.mp3"
+        },
+        {
+          "id": "55:13",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس (ای گروه جن و انس) کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055013.mp3"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "جلسه دوم: کار در کلاس",
+      "questions": [
+        {
+          "question": "معنای کلمه «شَمْس» چیست؟ (تمرین اول)",
+          "options": ["ماه", "خورشید", "ستاره", "آسمان"],
+          "correct_index": 1
+        },
+        {
+          "question": "معنای کلمه «قَمَر» چیست؟ (تمرین اول)",
+          "options": ["خورشید", "زمین", "ماه", "شب"],
+          "correct_index": 2
+        },
+        {
+          "question": "معنای کلمه «سَمَاء» چیست؟ (تمرین اول)",
+          "options": ["زمین", "دریا", "آسمان", "ابر"],
+          "correct_index": 2
+        },
+        {
+          "question": "معنای کلمه «شَجَرَ» چیست؟ (تمرین دوم)",
+          "options": ["میوه", "درخت", "گیاه", "گل"],
+          "correct_index": 1
+        },
+        {
+          "question": "معنای کلمه «مِیزان» چیست؟ (تمرین دوم)",
+          "options": ["ترازو (وسیله سنجش)", "وزن", "عدالت", "حساب"],
+          "correct_index": 0
+        },
+        {
+          "question": "معنای کلمه «خَلَقَ» چیست؟ (تمرین دوم)",
+          "options": ["روزی داد", "آفرید", "یاد داد", "گفت"],
+          "correct_index": 1
+        },
+        {
+          "question": "تمرین سوم: ترجمه جای خالی را انتخاب کنید:\nمِنْ شَجَرَةٍ مُبَارَكَةٍ زَيْتُونَةٍ = از ... پربرکت زیتون",
+          "options": ["میوه", "درخت", "باغ", "شاخه"],
+          "correct_index": 1
+        },
+        {
+          "question": "تمرین سوم: ترجمه جای خالی را انتخاب کنید:\nوَأَوْفُوا الْكَيْلَ وَالْمِيزانَ بِالْقِسْطِ = و تمام و کامل، پیمانه و ... را به عدالت پر کنید (رعایت کنید).",
+          "options": ["وزن", "ترازو", "حساب", "ظرف"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: آفرینش و بیان",
+      "content": {
+        "arabic": "خَلَقَ الْإِنسَانَ * عَلَّمَهُ الْبَيَانَ",
+        "persian": "(خدا) انسان را آفرید و به او سخن گفتن را آموخت (تعلیم داد).",
+        "hidden_words": ["الْإِنسَانَ", "الْبَيَانَ"]
+      }
+    },
+    {
+      "type": "reading",
+      "title": "جلسه سوم: قرائت سوره الرحمن (آیات ۱۴ تا ۲۵)",
+      "verses": [
+        {
+          "id": "55:14",
+          "text_arabic": "خَلَقَ الْإِنسَانَ مِن صَلْصَالٍ كَالْفَخَّارِ",
+          "text_persian": "انسان را از گل خشکیده‌ای همچون سفال آفرید.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055014.mp3"
+        },
+        {
+          "id": "55:15",
+          "text_arabic": "وَخَلَقَ الْجَانَّ مِن مَّارِجٍ مِّن نَّارٍ",
+          "text_persian": "و جن را از شعله‌های مختلط و بی‌دود آتش خلق کرد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055015.mp3"
+        },
+        {
+          "id": "55:16",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055016.mp3"
+        },
+        {
+          "id": "55:17",
+          "text_arabic": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
+          "text_persian": "او پروردگار دو مشرق و پروردگار دو مغرب است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055017.mp3"
+        },
+        {
+          "id": "55:18",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055018.mp3"
+        },
+        {
+          "id": "55:19",
+          "text_arabic": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
+          "text_persian": "دو دریا را به گونه‌ای روان کرد که با هم برخورد کنند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055019.mp3"
+        },
+        {
+          "id": "55:20",
+          "text_arabic": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+          "text_persian": "اما میان آن دو حد فاصلی است که به هم تجاوز نمی‌کنند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055020.mp3"
+        },
+        {
+          "id": "55:21",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055021.mp3"
+        },
+        {
+          "id": "55:22",
+          "text_arabic": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
+          "text_persian": "از آن دو، لؤلؤ و مرجان خارج می‌شود.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055022.mp3"
+        },
+        {
+          "id": "55:23",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055023.mp3"
+        },
+        {
+          "id": "55:24",
+          "text_arabic": "وَلَهُ الْجَوَارِ الْمُنشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
+          "text_persian": "و برای اوست کشتی‌های ساخته شده که در دریا به حرکت درمی‌آیند و همچون کوه‌ها هستند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055024.mp3"
+        },
+        {
+          "id": "55:25",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055025.mp3"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "جلسه چهارم: نظم در آفرینش (یک نکته از هزاران)",
+      "verses": [
+        {
+          "id": "story:7",
+          "text_arabic": "نظم در آفرینش",
+          "text_persian": "خداوند در سوره قمر آیه ۴۹ می‌فرماید: «إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ» (قطعاً ما هر چیز را به اندازه و سنجیده آفریدیم). این آیه به نظم و دقت در آفرینش اشاره دارد؛ از کوچکترین ذرات اتم تا بزرگترین کهکشان‌ها، همه چیز روی حساب و کتاب و با اندازه‌گیری دقیق خلق شده است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/054049.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+name: Build Signed Flutter Android App
+
+on:
+  push:
+    branches:
+      - main # فقط وقتی کدی روی برنچ اصلی پوش شد اجرا شود
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. دریافت کد از مخزن
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. تنظیم جاوا (نسخه 17 برای فلاتر و گردل جدید مناسب است)
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # 3. تنظیم فلاتر
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      # 4. بازسازی فایل Keystore از سکرت‌ها
+      # نکته: فایل در android/app/ ساخته می‌شود تا build.gradle آن را پیدا کند
+      - name: Decode Keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/upload-keystore.jks
+          echo "✅ Keystore file decoded and created at android/app/upload-keystore.jks"
+
+      # 5. ساخت فایل key.properties از سکرت‌ها
+      # نکته: فایل در android/ ساخته می‌شود (طبق تنظیمات build.gradle شما)
+      - name: Create key.properties file
+        run: |
+          echo "storePassword=${{ secrets.STORE_PASSWORD }}" > android/key.properties
+          echo "keyPassword=${{ secrets.KEY_PASSWORD }}" >> android/key.properties
+          echo "keyAlias=${{ secrets.KEY_ALIAS }}" >> android/key.properties
+          echo "storeFile=upload-keystore.jks" >> android/key.properties
+          echo "✅ key.properties file created at android/key.properties"
+      
+      # 6. تمیز کردن پروژه (برای جلوگیری از مشکلات کش)
+      - name: Clean Flutter project
+        run: flutter clean
+
+      # 7. دریافت پکیج‌ها
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      # 8. ساخت فایل APK (امضا شده)
+      - name: Build Flutter APK
+        run: flutter build apk --release
+
+      # 9. ساخت فایل App Bundle (امضا شده - مناسب گوگل پلی)
+      - name: Build Flutter App Bundle
+        run: flutter build appbundle --release
+        
+      # 10. آپلود APK به عنوان خروجی (Artifact)
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+
+      # 11. آپلود Bundle به عنوان خروجی
+      - name: Upload App Bundle artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-appbundle
+          path: build/app/outputs/bundle/release/app-release.aab

@@ -1,0 +1,216 @@
+{
+  "id": 8,
+  "title": "درس هشتم: مردان پارسی",
+  "sessions": [
+    {
+      "type": "reading",
+      "title": "جلسه اول: قرائت سوره الرحمن (آیات ۲۶ تا ۳۴)",
+      "verses": [
+        {
+          "id": "55:26",
+          "text_arabic": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+          "text_persian": "هر که روی زمین است فانی می‌شود (و از بین می‌رود).",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055026.mp3"
+        },
+        {
+          "id": "55:27",
+          "text_arabic": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
+          "text_persian": "و تنها ذات پروردگارت که صاحب شکوه و اکرام است، باقی می‌ماند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055027.mp3"
+        },
+        {
+          "id": "55:28",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055028.mp3"
+        },
+        {
+          "id": "55:29",
+          "text_arabic": "يَسْأَلُهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
+          "text_persian": "تمام کسانی که در آسمان‌ها و زمین هستند از او تقاضا می‌کنند، و او هر روز در شأن و کاری است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055029.mp3"
+        },
+        {
+          "id": "55:30",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055030.mp3"
+        },
+        {
+          "id": "55:31",
+          "text_arabic": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
+          "text_persian": "ای گروه جن و انس، به زودی به حساب شما می‌پردازیم!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055031.mp3"
+        },
+        {
+          "id": "55:32",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055032.mp3"
+        },
+        {
+          "id": "55:33",
+          "text_arabic": "يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَانٍ",
+          "text_persian": "ای گروه جن و انس! اگر می‌توانید از کرانه‌های آسمان‌ها و زمین بگذرید، پس بگذرید، ولی نمی‌توانید مگر با قدرت (و علم الهی)!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055033.mp3"
+        },
+        {
+          "id": "55:34",
+          "text_arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "text_persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055034.mp3"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "جلسه دوم: کار در کلاس",
+      "questions": [
+        {
+          "question": "معنای کلمه «جَزاء» چیست؟ (تمرین اول)",
+          "options": ["جزا (پاداش / کیفر)", "روز", "حساب", "کار"],
+          "correct_index": 0
+        },
+        {
+          "question": "معنای کلمه «اِحْسان» چیست؟ (تمرین اول)",
+          "options": ["بدی", "نیکی", "راستی", "بخشش"],
+          "correct_index": 1
+        },
+        {
+          "question": "معنای کلمه «اِسْم» چیست؟ (تمرین اول)",
+          "options": ["نشان", "نام", "صدا", "کتاب"],
+          "correct_index": 1
+        },
+        {
+          "question": "معنای صحیح «هَلْ» کدام است؟ (تمرین دوم)",
+          "options": ["نه نیست", "آیا", "مگر", "بله"],
+          "correct_index": 1
+        },
+        {
+          "question": "معنای صحیح «إِلَّا» کدام است؟ (تمرین دوم)",
+          "options": ["جز (مگر)", "اگر", "نه", "با"],
+          "correct_index": 0
+        },
+        {
+          "question": "معنای صحیح «كُلّ» کدام است؟ (تمرین دوم)",
+          "options": ["برخی", "هر (همه)", "هیچ", "اندک"],
+          "correct_index": 1
+        },
+        {
+          "question": "تمرین سوم: ترجمه جای خالی را انتخاب کنید:\nاللَّهُ خَالِقُ كُلِّ شَيْءٍ = خدا آفریننده ... چیز است.",
+          "options": ["هر (همه)", "بهترین", "زیباترین", "بزرگترین"],
+          "correct_index": 0
+        },
+        {
+          "question": "تمرین سوم: ترجمه جای خالی را انتخاب کنید:\nهَلْ مِنْ خَالِقٍ غَيْرُ اللَّهِ = ... هیچ آفریننده‌ای ... خدا هست؟!",
+          "options": ["مگر - با", "آیا - جز (غیر از)", "چرا - مانند", "آیا - با"],
+          "correct_index": 1
+        },
+        {
+          "question": "تمرین سوم: ترجمه جای خالی را انتخاب کنید:\nاللَّهُ لَا إِلَهَ إِلَّا هُوَ = ...یی (معبودی) جز او نیست.",
+          "options": ["خدا", "پیامبر", "فرشته", "انسان"],
+          "correct_index": 0
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: شکر نعمت",
+      "content": {
+        "arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+        "persian": "پس کدام یک از نعمت‌های پروردگارتان را انکار می‌کنید؟",
+        "hidden_words": ["آلَاءِ", "تُكَذِّبَانِ"]
+      }
+    },
+    {
+      "type": "reading",
+      "title": "جلسه سوم: قرائت سوره واقعه (آیات ۱ تا ۱۲)",
+      "verses": [
+        {
+          "id": "56:1",
+          "text_arabic": "إِذَا وَقَعَتِ الْوَاقِعَةُ",
+          "text_persian": "هنگامی که واقعه عظیم (قیامت) واقع شود،",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056001.mp3"
+        },
+        {
+          "id": "56:2",
+          "text_arabic": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+          "text_persian": "هیچ کس نمی‌تواند آن را انکار کند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056002.mp3"
+        },
+        {
+          "id": "56:3",
+          "text_arabic": "خَافِضَةٌ رَّافِعَةٌ",
+          "text_persian": "(گروهی را) پایین می‌آورد و (گروهی را) بالا می‌برد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056003.mp3"
+        },
+        {
+          "id": "56:4",
+          "text_arabic": "إِذَا رُجَّتِ الْأَرْضُ رَجًّا",
+          "text_persian": "در آن هنگام که زمین به شدت به لرزه درآید.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056004.mp3"
+        },
+        {
+          "id": "56:5",
+          "text_arabic": "وَبُسَّتِ الْجِبَالُ بَسًّا",
+          "text_persian": "و کوه‌ها در هم کوبیده و متلاشی شوند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056005.mp3"
+        },
+        {
+          "id": "56:6",
+          "text_arabic": "فَكَانَتْ هَبَاءً مُّنْبَثًّا",
+          "text_persian": "و به صورت غبار پراکنده درآیند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056006.mp3"
+        },
+        {
+          "id": "56:7",
+          "text_arabic": "وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً",
+          "text_persian": "و شما سه گروه خواهید بود.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056007.mp3"
+        },
+        {
+          "id": "56:8",
+          "text_arabic": "فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ",
+          "text_persian": "نخست سعادتمندان و خجستگان (هستند)؛ چه سعادتمندانی!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056008.mp3"
+        },
+        {
+          "id": "56:9",
+          "text_arabic": "وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ",
+          "text_persian": "گروه دیگر شقاوتمندان و شومانند؛ چه شقاوتمندانی!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056009.mp3"
+        },
+        {
+          "id": "56:10",
+          "text_arabic": "وَالسَّابِقُونَ السَّابِقُونَ",
+          "text_persian": "و پیشگامان پیشگامند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056010.mp3"
+        },
+        {
+          "id": "56:11",
+          "text_arabic": "أُولَٰئِكَ الْمُقَرَّبُونَ",
+          "text_persian": "آنها مقربانند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056011.mp3"
+        },
+        {
+          "id": "56:12",
+          "text_arabic": "فِي جَنَّاتِ النَّعِيمِ",
+          "text_persian": "در باغ‌های پرنعمت بهشت (جای دارند).",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/056012.mp3"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "جلسه چهارم: مردان پارسی (یک نکته از هزاران)",
+      "verses": [
+        {
+          "id": "story:8",
+          "text_arabic": "مردان پارسی (علم و دانش)",
+          "text_persian": "خداوند در آیه ۳۳ سوره الرحمن می‌فرماید: «يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا» (ای گروه جن و انس، اگر می‌توانید از مرزهای آسمان‌ها و زمین بگذرید، پس بگذرید). پیامبر اکرم (ص) فرمودند: «دانش اگر در ثریا (ستاره‌ای دوردست) باشد، مردانی از سرزمین پارس (ایران) به آن دست خواهند یافت.»",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/055033.mp3"
+        }
+      ]
+    }
+  ]
+}

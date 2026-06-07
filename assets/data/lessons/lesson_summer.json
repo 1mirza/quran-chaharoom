@@ -1,0 +1,246 @@
+{
+  "id": 15,
+  "title": "درس آخر: قرآن در تابستان",
+  "sessions": [
+    {
+      "type": "reading",
+      "title": "هفته اول و دوم تیر: سوره مطففین (آیات ۱ تا ۱۷)",
+      "verses": [
+        {
+          "id": "83:1",
+          "text_arabic": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+          "text_persian": "وای بر کم‌فروشان!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083001.mp3"
+        },
+        {
+          "id": "83:2",
+          "text_arabic": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
+          "text_persian": "آنان که وقتی برای خود پیمانه می‌کنند، حق خود را به طور کامل می‌گیرند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083002.mp3"
+        },
+        {
+          "id": "83:3",
+          "text_arabic": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+          "text_persian": "اما هنگامی که می‌خواهند برای دیگران پیمانه یا وزن کنند، کم می‌گذارند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083003.mp3"
+        },
+        {
+          "id": "83:4",
+          "text_arabic": "أَلَا يَظُنُّ أُولَٰئِكَ أَنَّهُم مَّبْعُوثُونَ",
+          "text_persian": "آیا آنها گمان نمی‌کنند که برانگیخته می‌شوند؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083004.mp3"
+        },
+        {
+          "id": "83:5",
+          "text_arabic": "لِيَوْمٍ عَظِيمٍ",
+          "text_persian": "در روزی بزرگ؛",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083005.mp3"
+        },
+        {
+          "id": "83:6",
+          "text_arabic": "يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ",
+          "text_persian": "روزی که مردم در پیشگاه پروردگار جهانیان می‌ایستند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083006.mp3"
+        },
+        {
+          "id": "83:7",
+          "text_arabic": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
+          "text_persian": "هرگز چنین نیست (که آنها می‌پندارند)؛ که نامه اعمال بدکاران در «سجّین» است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083007.mp3"
+        },
+        {
+          "id": "83:14",
+          "text_arabic": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ",
+          "text_persian": "چنین نیست که آنها می‌پندارند، بلکه اعمالشان چون زنگاری بر دل‌هایشان نشسته است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083014.mp3"
+        },
+        {
+          "id": "83:17",
+          "text_arabic": "ثُمَّ يُقَالُ هَٰذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ",
+          "text_persian": "سپس به آنها گفته می‌شود: «این همان چیزی است که آن را تکذیب می‌کردید!»",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083017.mp3"
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: روزی بی‌حساب",
+      "content": {
+        "arabic": "إِنَّ اللَّهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ",
+        "persian": "قطعاً خداوند به هر کس که بخواهد، روزی بی شمار می‌دهد.",
+        "hidden_words": ["يَرْزُقُ", "يَشَاءُ", "حِسَابٍ"]
+      }
+    },
+    {
+      "type": "reading",
+      "title": "هفته سوم و چهارم تیر: سوره مطففین (آیات ۱۸ تا ۲۸)",
+      "verses": [
+        {
+          "id": "83:18",
+          "text_arabic": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
+          "text_persian": "چنان نیست (که آنها درباره معاد می‌پندارند)؛ بلکه نامه اعمال نیکان در «علیین» است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083018.mp3"
+        },
+        {
+          "id": "83:22",
+          "text_arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+          "text_persian": "مسلّماً نیکان در انواع نعمت‌اند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083022.mp3"
+        },
+        {
+          "id": "83:23",
+          "text_arabic": "عَلَى الْأَرَائِكِ يَنظُرُونَ",
+          "text_persian": "بر تخت‌های زیبای بهشتی تکیه کرده و (به زیبایی‌های بهشت) می‌نگرند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083023.mp3"
+        },
+        {
+          "id": "83:24",
+          "text_arabic": "تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ",
+          "text_persian": "در چهره‌هایشان طراوت و نشاط نعمت را می‌بینی.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083024.mp3"
+        },
+        {
+          "id": "83:26",
+          "text_arabic": "خِتَامُهُ مِسْكٌ ۚ وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ",
+          "text_persian": "مُهری که بر آن نهاده شده از مشک است؛ و در این نعمتهای بهشتی راغبان باید بر یکدیگر پیشی گیرند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083026.mp3"
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: دوری از هلاکت",
+      "content": {
+        "arabic": "وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ",
+        "persian": "هرگز با دست خود، خویشتن را هلاک و نابود نکنید.",
+        "hidden_words": ["تُلْقُوا", "بِأَيْدِيكُمْ", "التَّهْلُكَةِ"]
+      }
+    },
+    {
+      "type": "reading",
+      "title": "هفته اول و دوم مرداد: سوره مطففین (آیات ۲۹ تا ۳۶)",
+      "verses": [
+        {
+          "id": "83:29",
+          "text_arabic": "إِنَّ الَّذِينَ أَجْرَمُوا كَانُوا مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ",
+          "text_persian": "بدکاران (در دنیا) پیوسته به مؤمنان می‌خندیدند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083029.mp3"
+        },
+        {
+          "id": "83:34",
+          "text_arabic": "فَالْيَوْمَ الَّذِينَ آمَنُوا مِنَ الْكُفَّارِ يَضْحَكُونَ",
+          "text_persian": "ولی امروز مؤمنان به کافران می‌خندند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083034.mp3"
+        },
+        {
+          "id": "83:36",
+          "text_arabic": "hَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ",
+          "text_persian": "آیا کافران پاداش اعمال خود را گرفتند؟!",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083036.mp3"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "هفته سوم و چهارم مرداد: سوره نازعات (آیات ۱ تا ۱۴)",
+      "verses": [
+        {
+          "id": "79:1",
+          "text_arabic": "وَالنَّازِعَاتِ غَرْقًا",
+          "text_persian": "سوگند به فرشتگانی که (جان مجرمان را) به شدت برمی‌کشند.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079001.mp3"
+        },
+        {
+          "id": "79:6",
+          "text_arabic": "يَوْمَ تَرْجُفُ الرَّاجِفَةُ",
+          "text_persian": "روزی که زلزله‌های وحشتناک همه چیز را به لرزه درمی‌آورد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079006.mp3"
+        },
+        {
+          "id": "79:10",
+          "text_arabic": "يَقُولُونَ أَإِنَّا لَمَرْدُودُونَ فِي الْحَافِرَةِ",
+          "text_persian": "(کافران) می‌گویند: «آیا ما به زندگی مجدد بازمی‌گردیم؟»",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079010.mp3"
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: پرهیز از خودستایی",
+      "content": {
+        "arabic": "فَلَا تُزَكُّوا أَنفُسَكُمْ",
+        "persian": "پس خودستایی نکنید (خودتان را پاک و بی‌عیب ندانید).",
+        "hidden_words": ["تُزَكُّوا", "أَنفُسَكُمْ"]
+      }
+    },
+    {
+      "type": "reading",
+      "title": "هفته اول و دوم شهریور: سوره نازعات (آیات ۱۵ تا ۲۶)",
+      "verses": [
+        {
+          "id": "79:15",
+          "text_arabic": "هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ",
+          "text_persian": "آیا سرگذشت موسی به تو رسیده است؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079015.mp3"
+        },
+        {
+          "id": "79:17",
+          "text_arabic": "اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ",
+          "text_persian": "به سوی فرعون برو که طغیان کرده است.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079017.mp3"
+        },
+        {
+          "id": "79:20",
+          "text_arabic": "فَأَرَاهُ الْآيَةَ الْكُبْرَىٰ",
+          "text_persian": "پس معجزه بزرگ را به او نشان داد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079020.mp3"
+        },
+        {
+          "id": "79:26",
+          "text_arabic": "إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰ",
+          "text_persian": "مسلّماً در این ماجرا درس عبرتی است برای آن کس که (از خدا) بترسد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079026.mp3"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "title": "هفته سوم و چهارم شهریور: سوره نازعات (آیات ۲۷ تا ۴۶)",
+      "verses": [
+        {
+          "id": "79:27",
+          "text_arabic": "أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ ۚ بَنَاهَا",
+          "text_persian": "آیا آفرینش شما (بعد از مرگ) مشکل‌تر است یا آفرینش آسمان که خداوند آن را بنا نهاد؟",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079027.mp3"
+        },
+        {
+          "id": "79:30",
+          "text_arabic": "وَالْأَرْضَ بَعْدَ ذَٰلِكَ دَحَاهَا",
+          "text_persian": "و زمین را بعد از آن گسترش داد.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079030.mp3"
+        },
+        {
+          "id": "79:40",
+          "text_arabic": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ",
+          "text_persian": "و آن کس که از مقام پروردگارش ترسان باشد و نفس را از هوی بازدارد،",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079040.mp3"
+        },
+        {
+          "id": "79:41",
+          "text_arabic": "فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ",
+          "text_persian": "قطعاً بهشت جایگاه اوست.",
+          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079041.mp3"
+        }
+      ]
+    },
+    {
+      "type": "memorize",
+      "title": "پیام قرآنی: هدف آفرینش",
+      "content": {
+        "arabic": "رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا",
+        "persian": "پروردگارا! این (جهان) را بیهوده نیافریده‌ای.",
+        "hidden_words": ["رَبَّنَا", "خَلَقْتَ", "بَاطِلًا"]
+      }
+    }
+  ]
+}
