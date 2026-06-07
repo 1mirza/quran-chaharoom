@@ -30,17 +30,63 @@ class GameState extends ChangeNotifier {
   // --- تنظیمات ---
   double fontSize = 24.0;
 
-  // تغییرات نسخه ۲.۰: اضافه شدن گزینه آفلاین
+  // --- تغییرات نسخه ۲.۰: لیست جامع قاریان EveryAyah و پیش‌فرض آفلاین ---
   final Map<String, String> availableReciters = {
-    "عبدالباسط (تحقیق)":
+    // پیش‌فرض جدید برای اجرای بدون اینترنت در اولین ورود
+    "قاری آفلاین (بدون اینترنت)": "offline_mode",
+
+    // قاریان ایرانی و ترجمه‌های گویای فارسی (جدید)
+    "پرهیزگار (ترتیل 48kbps)": "https://everyayah.com/data/Parhizgar_48kbps/",
+    "کریم منصوری (ترتیل 40kbps)":
+        "https://everyayah.com/data/Karim_Mansoori_40kbps/",
+    "ترجمه فارسی (مکارم/کبیری)":
+        "https://everyayah.com/data/translations/Makarem_Kabiri_16Kbps/",
+    "ترجمه فارسی (فولادوند/هدایت‌فر)":
+        "https://everyayah.com/data/translations/Fooladvand_Hedayatfar_40Kbps/",
+
+    // اساتید برجسته (با کیفیت‌های بهینه برای کاهش مصرف حجم اینترنت گوشی)
+    "مشاری العفاسی (ترتیل 64kbps)":
+        "https://everyayah.com/data/Alafasy_64kbps/",
+    "مشاری العفاسی (ترتیل 128kbps)":
+        "https://everyayah.com/data/Alafasy_128kbps/",
+    "عبدالباسط (تحقیق 64kbps)":
+        "https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/",
+    "عبدالباسط (تحقیق 128kbps)":
         "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/",
-    "مشاری العفاسی (ترتیل)": "https://everyayah.com/data/Alafasy_128kbps/",
-    "پرهیزگار (ترتیل)": "https://everyayah.com/data/Parhizgar_48kbps/",
-    "منشاوی (تحقیق)": "https://everyayah.com/data/Minshawy_Mujawwad_192kbps/",
-    "قاری آفلاین (بدون اینترنت)": "offline_mode", // کلید ویژه برای حالت آفلاین
+    "عبدالباسط (ترتیل 64kbps)":
+        "https://everyayah.com/data/Abdul_Basit_Murattal_64kbps/",
+    "منشاوی (تحقیق 64kbps)":
+        "https://everyayah.com/data/Minshawy_Mujawwad_64kbps/",
+    "منشاوی (ترتیل 128kbps)":
+        "https://everyayah.com/data/Minshawy_Murattal_128kbps/",
+    "حصری (ترتیل 64kbps)": "https://everyayah.com/data/Husary_64kbps/",
+    "حصری (آموزشی/معلم 128kbps)":
+        "https://everyayah.com/data/Husary_Muallim_128kbps/",
+    "سدیس (ترتیل 64kbps)":
+        "https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/",
+    "شریم (ترتیل 64kbps)": "https://everyayah.com/data/Shuraym_64kbps/",
+    "ماهر المعیقلی (ترتیل 64kbps)":
+        "https://everyayah.com/data/Maher_AlMuaiqly_64kbps/",
+    "ابوبکر شاطری (ترتیل 64kbps)":
+        "https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps/",
+    "احمد العجمی (ترتیل 64kbps)":
+        "https://everyayah.com/data/Ahmed_ibn_Ali_al-Ajamy_64kbps_QuranExplorer.Com/",
+    "یاسر الدوسری (ترتیل 128kbps)":
+        "https://everyayah.com/data/Dussary_128kbps/",
+    "محمد ایوب (ترتیل 64kbps)":
+        "https://everyayah.com/data/Muhammad_Ayyoub_64kbps/",
+    "محمد جبریل (ترتیل 64kbps)":
+        "https://everyayah.com/data/Muhammad_Jibreel_64kbps/",
+    "عبدالله بصفر (ترتیل 64kbps)":
+        "https://everyayah.com/data/Abdullah_Basfar_64kbps/",
+    "هانی الرفاعی (ترتیل 64kbps)":
+        "https://everyayah.com/data/Hani_Rifai_64kbps/",
+    "فارس عباد (ترتیل 64kbps)":
+        "https://everyayah.com/data/Fares_Abbad_64kbps/",
   };
 
-  String currentReciterName = "عبدالباسط (تحقیق)";
+  // پیش‌فرض در اولین نصب روی حالت آفلاین تنظیم شد
+  String currentReciterName = "قاری آفلاین (بدون اینترنت)";
   late String currentReciterBaseUrl;
 
   // --- دانلود و پخش ---
