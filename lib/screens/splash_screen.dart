@@ -107,7 +107,7 @@ class _SplashScreenState extends State<SplashScreen> {
                             color: Colors.amberAccent.withOpacity(0.5)),
                       ),
                       child: Text(
-                        'ویژه  1405 - نسخه ۲.۰',
+                        'ویژه  سال جدید - نسخه ۲.۰',
                         style: GoogleFonts.vazirmatn(
                           color: Colors.amberAccent,
                           fontSize: 14,

@@ -275,7 +275,7 @@ class SettingsScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 5),
                         const SelectableText(
-                          "info@example.com", // ایمیل خودتان را اینجا وارد کنید
+                          "alimirzaei.hr@gmail.com", // ایمیل خودتان را اینجا وارد کنید
                           style: TextStyle(
                               color: Colors.cyanAccent,
                               fontWeight: FontWeight.bold,
