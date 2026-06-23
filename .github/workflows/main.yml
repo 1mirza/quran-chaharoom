@@ -27,13 +27,16 @@ jobs:
         with:
           channel: 'stable'
           cache: true
-# 4. بازسازی فایل Keystore دقیقاً در پوشه android (جایی که گریدل به دنبالش می‌گردد)
+# 4. بازسازی فایل Keystore در هر دو مسیر احتمالی گریدل برای اطمینان ۱۰۰٪
       - name: Decode Keystore
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode --ignore-garbage > android/upload-keystore.jks
-          echo "✅ Keystore file decoded and created at android/upload-keystore.jks"
+          # کپی در پوشه android/app (مسیر خطای فعلی)
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode --ignore-garbage > android/app/upload-keystore.jks
+          # کپی در پوشه android (مسیر خطای قبلی برای محکم‌کاری)
+          cp android/app/upload-keystore.jks android/upload-keystore.jks
+          echo "✅ Keystore file decoded and copied to both android and app folders."
 
-      # 5. ساخت فایل key.properties بدون هیچ پیشوند یا پسوند مسیری
+      # 5. ساخت فایل key.properties بدون آدرس‌دهی پیچیده مسیری
       - name: Create key.properties file
         run: |
           echo "storePassword=${{ secrets.STORE_PASSWORD }}" > android/key.properties
