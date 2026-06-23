@@ -1,4 +1,4 @@
-package com.example.quran_sheshom_mirza
+package quran.chaharom.mirzaei
 
 import io.flutter.embedding.android.FlutterActivity
 

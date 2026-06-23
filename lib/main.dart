@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'آموزش قرآن ششم',
+      title: 'آموزش قرآن چهارم',
       debugShowCheckedModeBanner: false,
 
       // تنظیمات زبان فارسی و راست‌چین بودن کل برنامه

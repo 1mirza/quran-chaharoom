@@ -16,7 +16,7 @@ if (keystorePropertiesFile.exists()) {
 // ------------------------------------
 
 android {
-    namespace = "com.example.quran_sheshom_mirza"
+    namespace = "quran.chaharom.mirzaei"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.quran_sheshom_mirza"
+        applicationId = "quran.chaharom.mirzaei"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

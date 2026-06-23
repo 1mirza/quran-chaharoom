@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     
     <application
-        android:label="صوت قرآن ششم دبستان"
+        android:label="صوت قرآن چهارم دبستان"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

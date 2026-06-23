@@ -1,246 +1,528 @@
 {
   "id": 15,
-  "title": "درس آخر: قرآن در تابستان",
+  "title": "قرآن در تابستان (یادآوری و روان‌خوانی)",
   "sessions": [
     {
       "type": "reading",
-      "title": "هفته اول و دوم تیر: سوره مطففین (آیات ۱ تا ۱۷)",
+      "title": "بخش اول: سوره نبأ (آیات ۳۱ تا ۴۰)",
       "verses": [
         {
-          "id": "83:1",
-          "text_arabic": "وَيْلٌ لِّلْمُطَفِّفِينَ",
-          "text_persian": "وای بر کم‌فروشان!",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083001.mp3"
+          "id": "78:31",
+          "text_arabic": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+          "text_persian": "مسلماً برای پرهیزگاران نجات و رستگاری است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078031.mp3"
         },
         {
-          "id": "83:2",
-          "text_arabic": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
-          "text_persian": "آنان که وقتی برای خود پیمانه می‌کنند، حق خود را به طور کامل می‌گیرند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083002.mp3"
+          "id": "78:32",
+          "text_arabic": "حَدَائِقَ وَأَعْنَابًا",
+          "text_persian": "باغ‌هایی سرسبز، و انواع انگورها،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078032.mp3"
         },
         {
-          "id": "83:3",
-          "text_arabic": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
-          "text_persian": "اما هنگامی که می‌خواهند برای دیگران پیمانه یا وزن کنند، کم می‌گذارند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083003.mp3"
+          "id": "78:33",
+          "text_arabic": "وَكَوَاعِبَ أَتْرَابًا",
+          "text_persian": "و حوریانی بسیار جوان و هم‌سن و سال،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078033.mp3"
         },
         {
-          "id": "83:4",
-          "text_arabic": "أَلَا يَظُنُّ أُولَٰئِكَ أَنَّهُم مَّبْعُوثُونَ",
-          "text_persian": "آیا آنها گمان نمی‌کنند که برانگیخته می‌شوند؟",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083004.mp3"
+          "id": "78:34",
+          "text_arabic": "وَكَأْسًا دِهَاقًا",
+          "text_persian": "و جام‌هایی لبریز و پیاپی!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078034.mp3"
         },
         {
-          "id": "83:5",
-          "text_arabic": "لِيَوْمٍ عَظِيمٍ",
-          "text_persian": "در روزی بزرگ؛",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083005.mp3"
+          "id": "78:35",
+          "text_arabic": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّابًا",
+          "text_persian": "در آنجا نه سخن لغو و بیهوده‌ای می‌شنوند و نه دروغی!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078035.mp3"
         },
         {
-          "id": "83:6",
-          "text_arabic": "يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ",
-          "text_persian": "روزی که مردم در پیشگاه پروردگار جهانیان می‌ایستند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083006.mp3"
+          "id": "78:36",
+          "text_arabic": "جَزَاءً مِّن رَّبِّكَ عَطَاءً حِسَابًا",
+          "text_persian": "این کیفری است از سوی پروردگارت و عطیه‌ای است کافی!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078036.mp3"
         },
         {
-          "id": "83:7",
-          "text_arabic": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
-          "text_persian": "هرگز چنین نیست (که آنها می‌پندارند)؛ که نامه اعمال بدکاران در «سجّین» است.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083007.mp3"
+          "id": "78:37",
+          "text_arabic": "رَّبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+          "text_persian": "همان پروردگار آسمان‌ها و زمین و آنچه در میان آن دو است، پروردگار رحمان! و هیچ کس حق ندارد بی‌اجازه او سخنی بگوید!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078037.mp3"
         },
         {
-          "id": "83:14",
-          "text_arabic": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ",
-          "text_persian": "چنین نیست که آنها می‌پندارند، بلکه اعمالشان چون زنگاری بر دل‌هایشان نشسته است.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083014.mp3"
+          "id": "78:38",
+          "text_arabic": "يَوْمَ يَقُومُ الرُّوحُ وَالْمَلَائِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ الرَّحْمَٰنُ وَقَالَ صَوَابًا",
+          "text_persian": "روزی که «روح» و «فرشتگان» در یک صف می‌ایستند و هیچ یک، جز به اذن خداوند رحمان، سخن نمی‌گویند، و درست می‌گویند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078038.mp3"
         },
         {
-          "id": "83:17",
-          "text_arabic": "ثُمَّ يُقَالُ هَٰذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ",
-          "text_persian": "سپس به آنها گفته می‌شود: «این همان چیزی است که آن را تکذیب می‌کردید!»",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083017.mp3"
-        }
-      ]
-    },
-    {
-      "type": "memorize",
-      "title": "پیام قرآنی: روزی بی‌حساب",
-      "content": {
-        "arabic": "إِنَّ اللَّهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ",
-        "persian": "قطعاً خداوند به هر کس که بخواهد، روزی بی شمار می‌دهد.",
-        "hidden_words": ["يَرْزُقُ", "يَشَاءُ", "حِسَابٍ"]
-      }
-    },
-    {
-      "type": "reading",
-      "title": "هفته سوم و چهارم تیر: سوره مطففین (آیات ۱۸ تا ۲۸)",
-      "verses": [
-        {
-          "id": "83:18",
-          "text_arabic": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
-          "text_persian": "چنان نیست (که آنها درباره معاد می‌پندارند)؛ بلکه نامه اعمال نیکان در «علیین» است.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083018.mp3"
+          "id": "78:39",
+          "text_arabic": "ذَٰلِكَ الْيَوْمُ الْحَقُّ ۖ فَمَن شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ مَآبًا",
+          "text_persian": "آن روز، روز حق است؛ پس هر کس بخواهد، راهی به سوی پروردگارش برمی‌گزیند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078039.mp3"
         },
         {
-          "id": "83:22",
-          "text_arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
-          "text_persian": "مسلّماً نیکان در انواع نعمت‌اند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083022.mp3"
-        },
-        {
-          "id": "83:23",
-          "text_arabic": "عَلَى الْأَرَائِكِ يَنظُرُونَ",
-          "text_persian": "بر تخت‌های زیبای بهشتی تکیه کرده و (به زیبایی‌های بهشت) می‌نگرند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083023.mp3"
-        },
-        {
-          "id": "83:24",
-          "text_arabic": "تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ",
-          "text_persian": "در چهره‌هایشان طراوت و نشاط نعمت را می‌بینی.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083024.mp3"
-        },
-        {
-          "id": "83:26",
-          "text_arabic": "خِتَامُهُ مِسْكٌ ۚ وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ",
-          "text_persian": "مُهری که بر آن نهاده شده از مشک است؛ و در این نعمتهای بهشتی راغبان باید بر یکدیگر پیشی گیرند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083026.mp3"
-        }
-      ]
-    },
-    {
-      "type": "memorize",
-      "title": "پیام قرآنی: دوری از هلاکت",
-      "content": {
-        "arabic": "وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ",
-        "persian": "هرگز با دست خود، خویشتن را هلاک و نابود نکنید.",
-        "hidden_words": ["تُلْقُوا", "بِأَيْدِيكُمْ", "التَّهْلُكَةِ"]
-      }
-    },
-    {
-      "type": "reading",
-      "title": "هفته اول و دوم مرداد: سوره مطففین (آیات ۲۹ تا ۳۶)",
-      "verses": [
-        {
-          "id": "83:29",
-          "text_arabic": "إِنَّ الَّذِينَ أَجْرَمُوا كَانُوا مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ",
-          "text_persian": "بدکاران (در دنیا) پیوسته به مؤمنان می‌خندیدند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083029.mp3"
-        },
-        {
-          "id": "83:34",
-          "text_arabic": "فَالْيَوْمَ الَّذِينَ آمَنُوا مِنَ الْكُفَّارِ يَضْحَكُونَ",
-          "text_persian": "ولی امروز مؤمنان به کافران می‌خندند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083034.mp3"
-        },
-        {
-          "id": "83:36",
-          "text_arabic": "hَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ",
-          "text_persian": "آیا کافران پاداش اعمال خود را گرفتند؟!",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/083036.mp3"
+          "id": "78:40",
+          "text_arabic": "إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا",
+          "text_persian": "و ما شما را از عذاب نزدیکی بیم دادیم! در روزی که انسان آنچه را از قبل فرستاده می‌بیند، و کافر می‌گوید: «ای کاش خاک بودم!»",
+          "audio_url": "https://tanzil.net/res/audio/afasy/078040.mp3"
         }
       ]
     },
     {
       "type": "reading",
-      "title": "هفته سوم و چهارم مرداد: سوره نازعات (آیات ۱ تا ۱۴)",
+      "title": "بخش دوم: سوره عبس (آیات ۳۳ تا ۴۲)",
       "verses": [
         {
-          "id": "79:1",
-          "text_arabic": "وَالنَّازِعَاتِ غَرْقًا",
-          "text_persian": "سوگند به فرشتگانی که (جان مجرمان را) به شدت برمی‌کشند.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079001.mp3"
+          "id": "80:33",
+          "text_arabic": "فَإِذَا جَاءَتِ الصَّاخَّةُ",
+          "text_persian": "هنگامی که آن صدای مهیب (صیحه رستاخیز) بیاید،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080033.mp3"
         },
         {
-          "id": "79:6",
-          "text_arabic": "يَوْمَ تَرْجُفُ الرَّاجِفَةُ",
-          "text_persian": "روزی که زلزله‌های وحشتناک همه چیز را به لرزه درمی‌آورد.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079006.mp3"
+          "id": "80:34",
+          "text_arabic": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ",
+          "text_persian": "در آن روز که انسان از برادرش می‌گریزد،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080034.mp3"
         },
         {
-          "id": "79:10",
-          "text_arabic": "يَقُولُونَ أَإِنَّا لَمَرْدُودُونَ فِي الْحَافِرَةِ",
-          "text_persian": "(کافران) می‌گویند: «آیا ما به زندگی مجدد بازمی‌گردیم؟»",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079010.mp3"
+          "id": "80:35",
+          "text_arabic": "وَأُمِّهِ وَأَبِيهِ",
+          "text_persian": "و از مادر و پدرش،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080035.mp3"
+        },
+        {
+          "id": "80:36",
+          "text_arabic": "وَصَاحِبَتِهِ وَبَنِيهِ",
+          "text_persian": "و همسر و فرزندانش؛",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080036.mp3"
+        },
+        {
+          "id": "80:37",
+          "text_arabic": "لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+          "text_persian": "در آن روز هر کدام از آنها وضعی دارد که او را کاملاً به خود مشغول می‌سازد!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080037.mp3"
+        },
+        {
+          "id": "80:38",
+          "text_arabic": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
+          "text_persian": "چهره‌هایی در آن روز گشاده و نورانی است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080038.mp3"
+        },
+        {
+          "id": "80:39",
+          "text_arabic": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
+          "text_persian": "خندان و مسرور است؛",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080039.mp3"
+        },
+        {
+          "id": "80:40",
+          "text_arabic": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+          "text_persian": "و صورت‌هایی در آن روز غبارآلود است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080040.mp3"
+        },
+        {
+          "id": "80:41",
+          "text_arabic": "تَرْهَقُهَا قَتَرَةٌ",
+          "text_persian": "و دود تاریکی آنها را پوشانده است؛",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080041.mp3"
+        },
+        {
+          "id": "80:42",
+          "text_arabic": "أُولَٰئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ",
+          "text_persian": "آنان همان کافران فاجرند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/080042.mp3"
         }
       ]
-    },
-    {
-      "type": "memorize",
-      "title": "پیام قرآنی: پرهیز از خودستایی",
-      "content": {
-        "arabic": "فَلَا تُزَكُّوا أَنفُسَكُمْ",
-        "persian": "پس خودستایی نکنید (خودتان را پاک و بی‌عیب ندانید).",
-        "hidden_words": ["تُزَكُّوا", "أَنفُسَكُمْ"]
-      }
     },
     {
       "type": "reading",
-      "title": "هفته اول و دوم شهریور: سوره نازعات (آیات ۱۵ تا ۲۶)",
+      "title": "بخش سوم: سوره غاشیه (آیات ۱ تا ۲۶)",
       "verses": [
         {
-          "id": "79:15",
-          "text_arabic": "هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ",
-          "text_persian": "آیا سرگذشت موسی به تو رسیده است؟",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079015.mp3"
+          "id": "88:1",
+          "text_arabic": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
+          "text_persian": "آیا خبر آن حادثه فراگیر (= قیامت) به تو رسیده است؟",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088001.mp3"
         },
         {
-          "id": "79:17",
-          "text_arabic": "اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ",
-          "text_persian": "به سوی فرعون برو که طغیان کرده است.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079017.mp3"
+          "id": "88:2",
+          "text_arabic": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ",
+          "text_persian": "در آن روز چهره‌هایی زبون و درهم کشیده‌اند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088002.mp3"
         },
         {
-          "id": "79:20",
-          "text_arabic": "فَأَرَاهُ الْآيَةَ الْكُبْرَىٰ",
-          "text_persian": "پس معجزه بزرگ را به او نشان داد.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079020.mp3"
+          "id": "88:3",
+          "text_arabic": "عَامِلَةٌ نَّاصِبَةٌ",
+          "text_persian": "پیوسته عمل کرده و خسته شده‌اند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088003.mp3"
         },
         {
-          "id": "79:26",
-          "text_arabic": "إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰ",
-          "text_persian": "مسلّماً در این ماجرا درس عبرتی است برای آن کس که (از خدا) بترسد.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079026.mp3"
+          "id": "88:4",
+          "text_arabic": "تَصْلَىٰ نَارًا حَامِيَةً",
+          "text_persian": "در آتشی سوزان وارد می‌گردند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088004.mp3"
+        },
+        {
+          "id": "88:5",
+          "text_arabic": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
+          "text_persian": "از چشمه‌ای فوق‌العاده داغ به آنان می‌نوشانند.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088005.mp3"
+        },
+        {
+          "id": "88:6",
+          "text_arabic": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+          "text_persian": "غذایی جز از خار خشک تلخ و بدبو ندارند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088006.mp3"
+        },
+        {
+          "id": "88:7",
+          "text_arabic": "لَّا يُسْمِنُ وَلَا يُغْنِي مِن جُوعٍ",
+          "text_persian": "که نه آنان را فربه می‌کند و نه از گرسنگی می‌رهاند.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088007.mp3"
+        },
+        {
+          "id": "88:8",
+          "text_arabic": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+          "text_persian": "چهره‌هایی در آن روز شاداب و باطراوت‌اند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088008.mp3"
+        },
+        {
+          "id": "88:9",
+          "text_arabic": "لِّسَعْيِهَا رَاضِيَةٌ",
+          "text_persian": "و از سعی و تلاش خود خشنودند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088009.mp3"
+        },
+        {
+          "id": "88:10",
+          "text_arabic": "فِي جَنَّةٍ عَالِيَةٍ",
+          "text_persian": "در بهشتی عالی جای دارند.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088010.mp3"
+        },
+        {
+          "id": "88:11",
+          "text_arabic": "لَّا تَسْمَعُ فِيهَا لَاغِيَةً",
+          "text_persian": "هیچ سخن لغوی در آنجا نمی‌شنوی،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088011.mp3"
+        },
+        {
+          "id": "88:12",
+          "text_arabic": "فِيهَا عَيْنٌ جَارِيَةٌ",
+          "text_persian": "در آن چشمه‌ای روان است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088012.mp3"
+        },
+        {
+          "id": "88:13",
+          "text_arabic": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+          "text_persian": "در آن تخت‌های زیبای بلندی است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088013.mp3"
+        },
+        {
+          "id": "88:14",
+          "text_arabic": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+          "text_persian": "و قدح‌هایی که نهاده شده،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088014.mp3"
+        },
+        {
+          "id": "88:15",
+          "text_arabic": "وَنَمَارِقُ مَصْفُوفَةٌ",
+          "text_persian": "و بالش‌ها و پشتی‌های صف‌داده‌شده،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088015.mp3"
+        },
+        {
+          "id": "88:16",
+          "text_arabic": "وَزَرَابِيُّ مَبْثُوثَةٌ",
+          "text_persian": "و فرش‌های فاخر گسترده!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088016.mp3"
+        },
+        {
+          "id": "88:17",
+          "text_arabic": "أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ",
+          "text_persian": "آیا آنان به شتر نمی‌نگرند که چگونه آفریده شده است؟!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088017.mp3"
+        },
+        {
+          "id": "88:18",
+          "text_arabic": "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ",
+          "text_persian": "و به آسمان که چگونه برافراشته شده است؟!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088018.mp3"
+        },
+        {
+          "id": "88:19",
+          "text_arabic": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ",
+          "text_persian": "و به کوه‌ها که چگونه استوار و پابرجا نصب شده است؟!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088019.mp3"
+        },
+        {
+          "id": "88:20",
+          "text_arabic": "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
+          "text_persian": "و به زمین که چگونه گسترده و هموار گشته است؟!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088020.mp3"
+        },
+        {
+          "id": "88:21",
+          "text_arabic": "فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ",
+          "text_persian": "پس تذکّر ده که تو فقط تذکّر دهنده‌ای!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088021.mp3"
+        },
+        {
+          "id": "88:22",
+          "text_arabic": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+          "text_persian": "تو بر آنان تسلّطی نداری که مجبورشان کنی،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088022.mp3"
+        },
+        {
+          "id": "88:23",
+          "text_arabic": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+          "text_persian": "مگر کسی که روی‌گردان شود و کفر ورزد،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088023.mp3"
+        },
+        {
+          "id": "88:24",
+          "text_arabic": "فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ",
+          "text_persian": "که خداوند او را به عذاب بزرگ مجازات می‌کند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088024.mp3"
+        },
+        {
+          "id": "88:25",
+          "text_arabic": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
+          "text_persian": "به یقین بازگشت آنان به سوی ماست،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088025.mp3"
+        },
+        {
+          "id": "88:26",
+          "text_arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+          "text_persian": "و سپس حسابشان (نیز) بر ماست!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/088026.mp3"
         }
       ]
     },
     {
       "type": "reading",
-      "title": "هفته سوم و چهارم شهریور: سوره نازعات (آیات ۲۷ تا ۴۶)",
+      "title": "بخش چهارم: سوره اعلی (آیات ۱ تا ۱۹)",
       "verses": [
         {
-          "id": "79:27",
-          "text_arabic": "أَأَنتُمْ أَشَدُّ خَلْقًا أَمِ السَّمَاءُ ۚ بَنَاهَا",
-          "text_persian": "آیا آفرینش شما (بعد از مرگ) مشکل‌تر است یا آفرینش آسمان که خداوند آن را بنا نهاد؟",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079027.mp3"
+          "id": "87:1",
+          "text_arabic": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
+          "text_persian": "منزّه شمار نام پروردگار بلندمرتبه‌ات را!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087001.mp3"
         },
         {
-          "id": "79:30",
-          "text_arabic": "وَالْأَرْضَ بَعْدَ ذَٰلِكَ دَحَاهَا",
-          "text_persian": "و زمین را بعد از آن گسترش داد.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079030.mp3"
+          "id": "87:2",
+          "text_arabic": "الَّذِي خَلَقَ فَسَوَّىٰ",
+          "text_persian": "همان خداوندی که آفرید و منظّم کرد،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087002.mp3"
         },
         {
-          "id": "79:40",
-          "text_arabic": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ",
-          "text_persian": "و آن کس که از مقام پروردگارش ترسان باشد و نفس را از هوی بازدارد،",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079040.mp3"
+          "id": "87:3",
+          "text_arabic": "وَالَّذِي قَدَّرَ فَهَدَىٰ",
+          "text_persian": "و همان که اندازه‌گیری کرد و هدایت نمود،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087003.mp3"
         },
         {
-          "id": "79:41",
-          "text_arabic": "فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ",
-          "text_persian": "قطعاً بهشت جایگاه اوست.",
-          "audio_url": "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/079041.mp3"
+          "id": "87:4",
+          "text_arabic": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ",
+          "text_persian": "و آن کس که چراگاه را به وجود آورد،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087004.mp3"
+        },
+        {
+          "id": "87:5",
+          "text_arabic": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ",
+          "text_persian": "سپس آن را خشک و تیره قرار داد!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087005.mp3"
+        },
+        {
+          "id": "87:6",
+          "text_arabic": "سَنُقْرِئُكَ فَلَا تَنسَىٰ",
+          "text_persian": "ما بزودی بر تو می‌خوانیم تا فراموش نکنی،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087006.mp3"
+        },
+        {
+          "id": "87:7",
+          "text_arabic": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ",
+          "text_persian": "مگر آنچه را خدا بخواهد، که او آشکار و پنهان را می‌داند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087007.mp3"
+        },
+        {
+          "id": "87:8",
+          "text_arabic": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+          "text_persian": "و ما تو را برای انجام هر کار خیری توفیق می‌دهیم!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087008.mp3"
+        },
+        {
+          "id": "87:9",
+          "text_arabic": "فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَىٰ",
+          "text_persian": "پس تذکّر ده اگر تذکّر مفید باشد!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087009.mp3"
+        },
+        {
+          "id": "87:10",
+          "text_arabic": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+          "text_persian": "و بزودی کسی که از خدا می‌ترسد متذکّر می‌شود.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087010.mp3"
+        },
+        {
+          "id": "87:11",
+          "text_arabic": "وَيَتَجَنَّبُهَا الْأَشْقَى",
+          "text_persian": "اما بدبخت‌ترین افراد از آن دوری می‌گزیند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087011.mp3"
+        },
+        {
+          "id": "87:12",
+          "text_arabic": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ",
+          "text_persian": "همان کسی که در آتش بزرگ وارد می‌شود،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087012.mp3"
+        },
+        {
+          "id": "87:13",
+          "text_arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+          "text_persian": "سپس در آن آتش نه می‌میرد و نه زنده می‌شود!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087013.mp3"
+        },
+        {
+          "id": "87:14",
+          "text_arabic": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+          "text_persian": "به یقین کسی که پاکی جست، رستگار شد.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087014.mp3"
+        },
+        {
+          "id": "87:15",
+          "text_arabic": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ",
+          "text_persian": "و نام پروردگارش را یاد کرد سپس نماز خواند!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087015.mp3"
+        },
+        {
+          "id": "87:16",
+          "text_arabic": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
+          "text_persian": "ولی شما زندگی دنیا را مقدم می‌دارید،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087016.mp3"
+        },
+        {
+          "id": "87:17",
+          "text_arabic": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ",
+          "text_persian": "در حالی که آخرت بهتر و پایدارتر است!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087017.mp3"
+        },
+        {
+          "id": "87:18",
+          "text_arabic": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ",
+          "text_persian": "این دستورها در کتب آسمانی پیشین آمده است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087018.mp3"
+        },
+        {
+          "id": "87:19",
+          "text_arabic": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ",
+          "text_persian": "در کتب ابراهیم و موسی.",
+          "audio_url": "https://tanzil.net/res/audio/afasy/087019.mp3"
         }
       ]
     },
     {
-      "type": "memorize",
-      "title": "پیام قرآنی: هدف آفرینش",
-      "content": {
-        "arabic": "رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا",
-        "persian": "پروردگارا! این (جهان) را بیهوده نیافریده‌ای.",
-        "hidden_words": ["رَبَّنَا", "خَلَقْتَ", "بَاطِلًا"]
-      }
+      "type": "reading",
+      "title": "بخش پنجم: سوره طارق (آیات ۱ تا ۱۷)",
+      "verses": [
+        {
+          "id": "86:1",
+          "text_arabic": "وَالسَّمَاءِ وَالطَّارِقِ",
+          "text_persian": "سوگند به آسمان و کوبنده شب!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086001.mp3"
+        },
+        {
+          "id": "86:2",
+          "text_arabic": "وَمَا أَدْرَاكَ مَا الطَّارِقُ",
+          "text_persian": "و تو چه می‌دانی کوبنده شب چیست؟!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086002.mp3"
+        },
+        {
+          "id": "86:3",
+          "text_arabic": "النَّجْمُ الثَّاقِبُ",
+          "text_persian": "همان ستاره درخشان و شکافنده تاریکی‌هاست!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086003.mp3"
+        },
+        {
+          "id": "86:4",
+          "text_arabic": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
+          "text_persian": "هیچ کس نیست مگر اینکه مراقب و محافظی بر اوست!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086004.mp3"
+        },
+        {
+          "id": "86:5",
+          "text_arabic": "فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ",
+          "text_persian": "انسان باید بنگرد که از چه چیز آفریده شده است!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086005.mp3"
+        },
+        {
+          "id": "86:6",
+          "text_arabic": "خُلِقَ مِن مَّاءٍ دَافِقٍ",
+          "text_persian": "از آبی جهنده آفریده شده است،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086006.mp3"
+        },
+        {
+          "id": "86:7",
+          "text_arabic": "يَخْرُجُ مِن بَيْنِ الصُّلْبِ وَالتَّرَائِبِ",
+          "text_persian": "آبی که از میان پشت و سینه‌ها خارج می‌شود!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086007.mp3"
+        },
+        {
+          "id": "86:8",
+          "text_arabic": "إِنَّهُ عَلَىٰ رَجْعِهِ لَقَادِرٌ",
+          "text_persian": "مسلماً او [= خداوند] قادر است او را بازگرداند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086008.mp3"
+        },
+        {
+          "id": "86:9",
+          "text_arabic": "يَوْمَ تُبْلَى السَّرَائِرُ",
+          "text_persian": "در آن روز که اسرار پنهان آشکار می‌شود،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086009.mp3"
+        },
+        {
+          "id": "86:10",
+          "text_arabic": "فَمَا لَهُ مِن قُوَّةٍ وَلَا نَاصِرٍ",
+          "text_persian": "و برای او هیچ نیرو و یاوری نیست!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086010.mp3"
+        },
+        {
+          "id": "86:11",
+          "text_arabic": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ",
+          "text_persian": "سوگند به آسمان پرباران،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086011.mp3"
+        },
+        {
+          "id": "86:12",
+          "text_arabic": "وَالْأَرْضِ ذَاتِ الصَّدْعِ",
+          "text_persian": "و سوگند به زمین پرشکاف (که گیاهان از آن سر برمی‌آورند)،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086012.mp3"
+        },
+        {
+          "id": "86:13",
+          "text_arabic": "إِنَّهُ لَقَوْلٌ فَصْلٌ",
+          "text_persian": "که این (قرآن) سخنی است که حق را از باطل جدا می‌کند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086013.mp3"
+        },
+        {
+          "id": "86:14",
+          "text_arabic": "وَمَا هُوَ بِالْهَزْلِ",
+          "text_persian": "و هرگز شوخی نیست!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086014.mp3"
+        },
+        {
+          "id": "86:15",
+          "text_arabic": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+          "text_persian": "آنها پیوسته حیله می‌کنند،",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086015.mp3"
+        },
+        {
+          "id": "86:16",
+          "text_arabic": "وَأَكِيدُ كَيْدًا",
+          "text_persian": "و من هم در برابر آنها چاره می‌کنم!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086016.mp3"
+        },
+        {
+          "id": "86:17",
+          "text_arabic": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا",
+          "text_persian": "حال که چنین است کافران را مهلت ده، مهلتی کوتاه!",
+          "audio_url": "https://tanzil.net/res/audio/afasy/086017.mp3"
+        }
+      ]
     }
   ]
 }
