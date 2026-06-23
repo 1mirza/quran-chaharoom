@@ -27,15 +27,14 @@ jobs:
         with:
           channel: 'stable'
           cache: true
-
-      ## 4. بازسازی فایل Keystore از سکرت‌ها در روت پروژه (همان جایی که پروژه شما انتظار دارد)
+# 4. بازسازی فایل Keystore دقیقاً در روت پروژه (کنار pubspec.yaml)
       - name: Decode Keystore
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode --ignore-garbage > upload-keystore.jks
           echo "✅ Keystore file decoded and created at project root"
 
-      # 5. ساخت فایل key.properties از سکرت‌ها
-      # نکته: چون فایل کلید در روت است، آدرس storeFile را به صورت یک پله عقب‌تر نسبت به پوشه android می‌دهیم
+      # 5. ساخت فایل key.properties هماهنگ با کدهای build.gradle.kts
+      # نکته: چون گریدل در پوشه android اجرا می‌شود، با ../ یک پوشه به عقب برمی‌گردد تا به روت برسد
       - name: Create key.properties file
         run: |
           echo "storePassword=${{ secrets.STORE_PASSWORD }}" > android/key.properties
