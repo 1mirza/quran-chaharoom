@@ -27,20 +27,19 @@ jobs:
         with:
           channel: 'stable'
           cache: true
-# 4. بازسازی فایل Keystore دقیقاً در روت پروژه (کنار pubspec.yaml)
+# 4. بازسازی فایل Keystore دقیقاً در پوشه android (جایی که گریدل به دنبالش می‌گردد)
       - name: Decode Keystore
         run: |
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode --ignore-garbage > upload-keystore.jks
-          echo "✅ Keystore file decoded and created at project root"
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode --ignore-garbage > android/upload-keystore.jks
+          echo "✅ Keystore file decoded and created at android/upload-keystore.jks"
 
-      # 5. ساخت فایل key.properties هماهنگ با کدهای build.gradle.kts
-      # نکته: چون گریدل در پوشه android اجرا می‌شود، با ../ یک پوشه به عقب برمی‌گردد تا به روت برسد
+      # 5. ساخت فایل key.properties بدون هیچ پیشوند یا پسوند مسیری
       - name: Create key.properties file
         run: |
           echo "storePassword=${{ secrets.STORE_PASSWORD }}" > android/key.properties
           echo "keyPassword=${{ secrets.KEY_PASSWORD }}" >> android/key.properties
           echo "keyAlias=${{ secrets.KEY_ALIAS }}" >> android/key.properties
-          echo "storeFile=../upload-keystore.jks" >> android/key.properties
+          echo "storeFile=upload-keystore.jks" >> android/key.properties
           echo "✅ key.properties file created at android/key.properties"
       
       # 6. تمیز کردن پروژه (برای جلوگیری از مشکلات کش)
