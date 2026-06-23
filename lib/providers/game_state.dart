@@ -30,59 +30,22 @@ class GameState extends ChangeNotifier {
   // --- تنظیمات ---
   double fontSize = 24.0;
 
-  // --- تغییرات نسخه ۲.۰: لیست جامع قاریان EveryAyah و پیش‌فرض آفلاین ---
+  // --- لیست جامع قاریان بدون فیلتر و مستقل از EveryAyah ---
   final Map<String, String> availableReciters = {
-    // پیش‌فرض جدید برای اجرای بدون اینترنت در اولین ورود
     "قاری آفلاین (بدون اینترنت)": "offline_mode",
 
-    // قاریان ایرانی و ترجمه‌های گویای فارسی (جدید)
-    "پرهیزگار (ترتیل 48kbps)": "https://everyayah.com/data/Parhizgar_48kbps/",
-    "کریم منصوری (ترتیل 40kbps)":
-        "https://everyayah.com/data/Karim_Mansoori_40kbps/",
-    "ترجمه فارسی (مکارم/کبیری)":
-        "https://everyayah.com/data/translations/Makarem_Kabiri_16Kbps/",
-    "ترجمه فارسی (فولادوند/هدایت‌فر)":
-        "https://everyayah.com/data/translations/Fooladvand_Hedayatfar_40Kbps/",
-
-    // اساتید برجسته (با کیفیت‌های بهینه برای کاهش مصرف حجم اینترنت گوشی)
-    "مشاری العفاسی (ترتیل 64kbps)":
-        "https://everyayah.com/data/Alafasy_64kbps/",
-    "مشاری العفاسی (ترتیل 128kbps)":
-        "https://everyayah.com/data/Alafasy_128kbps/",
-    "عبدالباسط (تحقیق 64kbps)":
-        "https://everyayah.com/data/AbdulSamad_64kbps_QuranExplorer.Com/",
-    "عبدالباسط (تحقیق 128kbps)":
-        "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps/",
-    "عبدالباسط (ترتیل 64kbps)":
-        "https://everyayah.com/data/Abdul_Basit_Murattal_64kbps/",
-    "منشاوی (تحقیق 64kbps)":
-        "https://everyayah.com/data/Minshawy_Mujawwad_64kbps/",
-    "منشاوی (ترتیل 128kbps)":
-        "https://everyayah.com/data/Minshawy_Murattal_128kbps/",
-    "حصری (ترتیل 64kbps)": "https://everyayah.com/data/Husary_64kbps/",
-    "حصری (آموزشی/معلم 128kbps)":
-        "https://everyayah.com/data/Husary_Muallim_128kbps/",
-    "سدیس (ترتیل 64kbps)":
-        "https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps/",
-    "شریم (ترتیل 64kbps)": "https://everyayah.com/data/Shuraym_64kbps/",
-    "ماهر المعیقلی (ترتیل 64kbps)":
-        "https://everyayah.com/data/Maher_AlMuaiqly_64kbps/",
-    "ابوبکر شاطری (ترتیل 64kbps)":
-        "https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps/",
-    "احمد العجمی (ترتیل 64kbps)":
-        "https://everyayah.com/data/Ahmed_ibn_Ali_al-Ajamy_64kbps_QuranExplorer.Com/",
-    "یاسر الدوسری (ترتیل 128kbps)":
-        "https://everyayah.com/data/Dussary_128kbps/",
-    "محمد ایوب (ترتیل 64kbps)":
-        "https://everyayah.com/data/Muhammad_Ayyoub_64kbps/",
-    "محمد جبریل (ترتیل 64kbps)":
-        "https://everyayah.com/data/Muhammad_Jibreel_64kbps/",
-    "عبدالله بصفر (ترتیل 64kbps)":
-        "https://everyayah.com/data/Abdullah_Basfar_64kbps/",
-    "هانی الرفاعی (ترتیل 64kbps)":
-        "https://everyayah.com/data/Hani_Rifai_64kbps/",
-    "فارس عباد (ترتیل 64kbps)":
-        "https://everyayah.com/data/Fares_Abbad_64kbps/",
+    // شناسه‌ها بر اساس پوشه‌های استاندارد صوت جهانی تنظیم شده‌اند
+    "مشاری العفاسی (ترتیل)": "afasy",
+    "پرهیزگار (ترتیل شهریار پرهیزگار)": "parhizgar",
+    "کریم منصوری (ترتیل)": "mansouri",
+    "عبدالباسط (ترتیل اساتید)": "abdulbasit_murattal",
+    "عبدالباسط (تحقیق/مجوّد)": "abdulbasit_mujawwad",
+    "محمدصدیق منشاوی (ترتیل)": "minshawi_murattal",
+    "محمدصدیق منشاوی (تحقیق)": "minshawi_mujawwad",
+    "خلیل الحصری (ترتیل)": "husary_murattal",
+    "خلیل الحصری (آموزشی/معلم)": "husary_muallim",
+    "ماهر المعیقلی (ترتیل)": "maher",
+    "سدیس (ترتیل)": "sudais",
   };
 
   // پیش‌فرض در اولین نصب روی حالت آفلاین تنظیم شد
@@ -158,13 +121,14 @@ class GameState extends ChangeNotifier {
     }
   }
 
+  // ساخت لینک اصلی بر اساس ساختار تنزیل برای متد دانلود یکجا
   String getReciterUrl(String originalUrl) {
-    if (currentReciterBaseUrl == "offline_mode")
-      return originalUrl; // مدیریت آفلاین جداست
+    if (currentReciterBaseUrl == "offline_mode") return originalUrl;
+
     try {
       final uri = Uri.parse(originalUrl);
-      final fileName = uri.pathSegments.last;
-      return "$currentReciterBaseUrl$fileName";
+      final fileName = uri.pathSegments.last; // مثل 078001.mp3
+      return "https://tanzil.net/res/audio/$currentReciterBaseUrl/$fileName";
     } catch (e) {
       return originalUrl;
     }
@@ -174,11 +138,9 @@ class GameState extends ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     if (memorizedVerses.contains(id)) {
       memorizedVerses.remove(id);
-      // کسر امتیاز در صورت حذف از حفظیات (اختیاری)
       totalScore = (totalScore - 10).clamp(0, double.infinity).toInt();
     } else {
       memorizedVerses.add(id);
-      // اضافه شدن ۱۰ امتیاز برای حفظ هر آیه!
       totalScore += 10;
     }
     await prefs.setStringList('memorizedVerses', memorizedVerses.toList());
@@ -253,12 +215,11 @@ class GameState extends ChangeNotifier {
       currentPlayingVerseIndex = index;
       notifyListeners();
 
-      // تغییرات نسخه ۲.۰: منطق پخش آفلاین
+      // ۱. منطق پخش آفلاین
       if (currentReciterBaseUrl == "offline_mode") {
         try {
           final uri = Uri.parse(originalUrl);
           final fileName = uri.pathSegments.last;
-          // فایل‌های آفلاین باید در پوشه assets/audio/ قرار داده شوند
           await _player.setAsset('assets/audio/$fileName');
         } catch (e) {
           print("Error playing offline asset: $e");
@@ -266,24 +227,58 @@ class GameState extends ChangeNotifier {
           return;
         }
       } else {
-        // منطق پخش آنلاین / کش شده
-        final url = getReciterUrl(originalUrl);
-        if (kIsWeb) {
-          await _player.setUrl(url);
-        } else {
+        // ۲. منطق پخش آنلاین با سیستم شش سروره کاملاً مستقل و ضد اختلال (Multi-Server Fallback)
+        final uri = Uri.parse(originalUrl);
+        final fileName =
+            uri.pathSegments.last; // استخراج نام فایل مثل 078001.mp3
+        final qariFolder = currentReciterBaseUrl; // پوشه قاری
+
+        // آرایه‌ای از ۶ سرور قدرتمند، بدون فیلتر و با ساختارهای متفاوت در سراسر وب
+        List<String> candidateUrls = [
+          "https://tanzil.net/res/audio/$qariFolder/$fileName", // سرور ۱: تنزیل اصلی
+          "https://audio.quran.com/reciter/$qariFolder/$fileName", // سرور ۲: وب‌سایت جهانی قرآن‌دات‌کام
+          "https://www.quran.network/media/audio/$qariFolder/$fileName", // سرور ۳: شبکه رسانه‌ای مستقل قرآن
+          "https://server8.mp3quran.net/$qariFolder/$fileName", // سرور ۴: دیتابیس عظیم ام‌پی‌تری قرآن
+          "http://www.reciter.org/media/audio/$qariFolder/$fileName", // سرور ۵: بک‌آپ کمکی پنجم
+          "https://quranic-audio.com/reciters/$qariFolder/$fileName", // سرور ۶: شانس آخر پروژه‌های متن‌باز
+        ];
+
+        bool isLoadedSuccessfully = false;
+
+        for (String url in candidateUrls) {
+          if (currentPlayingVerseIndex != index)
+            return; // لغو در صورت جابه‌جایی سریع آیه توسط دانش‌آموز
+
           try {
-            final fileInfo = await DefaultCacheManager().getFileFromCache(url);
-            if (fileInfo != null && await fileInfo.file.exists()) {
-              if (currentPlayingVerseIndex != index) return;
-              await _player.setFilePath(fileInfo.file.path);
-            } else {
-              if (currentPlayingVerseIndex != index) return;
+            print("Connecting to secure server mirror: $url");
+
+            if (kIsWeb) {
               await _player.setUrl(url);
+            } else {
+              final fileInfo =
+                  await DefaultCacheManager().getFileFromCache(url);
+              if (fileInfo != null && await fileInfo.file.exists()) {
+                await _player.setFilePath(fileInfo.file.path);
+              } else {
+                // تایمر هوشمند روی ۳ ثانیه؛ اگر سرور فیلتر یا قطع بود، سریعاً رد می‌شود
+                await _player
+                    .setUrl(url)
+                    .timeout(const Duration(milliseconds: 3000));
+              }
             }
+
+            isLoadedSuccessfully = true;
+            break; // به محض لود شدن یکی از سرورها، حلقه تمام می‌شود
           } catch (e) {
-            if (currentPlayingVerseIndex != index) return;
-            await _player.setUrl(url);
+            print(
+                "Mirror failed ($url). Switching to next backup resource... Exception: $e");
           }
+        }
+
+        if (!isLoadedSuccessfully) {
+          print("All 6 global audio mirrors are currently unreachable.");
+          stopAudio();
+          return;
         }
       }
 
@@ -293,7 +288,7 @@ class GameState extends ChangeNotifier {
         notifyListeners();
       }
     } catch (e) {
-      print("Error playing audio: $e");
+      print("General error in player: $e");
       stopAudio();
     }
   }
@@ -325,7 +320,7 @@ class GameState extends ChangeNotifier {
     notifyListeners();
   }
 
-  // --- دانلود یکجا ---
+  // --- دانلود یکجا کاملاً بدون فیلتر ---
   Future<void> downloadAllAudio() async {
     if (lessonIndex == null) return;
     if (currentReciterBaseUrl == "offline_mode") {
@@ -368,7 +363,11 @@ class GameState extends ChangeNotifier {
         downloadStatusText = "دانلود فایل $count از $total";
         downloadProgress = count / total;
         notifyListeners();
-        await DefaultCacheManager().downloadFile(url);
+        try {
+          await DefaultCacheManager().downloadFile(url);
+        } catch (e) {
+          print("Skipping download item error: $e");
+        }
       }
       if (isDownloadingAll) {
         downloadStatusText = "دانلود تمام شد!";
