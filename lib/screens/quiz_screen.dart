@@ -107,38 +107,45 @@ class _QuizScreenState extends State<QuizScreen> {
                 const SizedBox(height: 30),
 
                 // کارت نمایش سوال با افکت شیشه‌ای
+                // کارت نمایش سوال با افکت شیشه‌ای
                 Expanded(
                   flex: 2,
                   child: ZoomIn(
                     key: ValueKey<int>(currentQuestionIndex),
-                    child: Center(
-                      child: GlassCard(
-                        width: double.infinity,
-                        padding: const EdgeInsets.all(24),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const Icon(Icons.help_outline_rounded,
-                                size: 48, color: Colors.white54),
-                            const SizedBox(height: 20),
-                            Text(
-                              currentQuestion.question,
-                              style: GoogleFonts.vazirmatn(
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                height: 1.4,
+                    child: GlassCard(
+                      width: double.infinity,
+                      height: double
+                          .infinity, // 👈 اضافه شد تا کارت تمام فضای مجاز اکسپندد را بگیرد
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 24, vertical: 16),
+                      child: Center(
+                        // 👈 سنتر را به داخل گلس‌کارت آوردیم تا محتوا کاملاً وسط‌چین شود
+                        child: SingleChildScrollView(
+                          // 👈 اضافه شد تا اگر متن سوال طولانی بود، غیب نشود
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              const Icon(Icons.help_outline_rounded,
+                                  size: 44, color: Colors.white54),
+                              const SizedBox(height: 16),
+                              Text(
+                                currentQuestion.question,
+                                style: GoogleFonts.vazirmatn(
+                                  fontSize: 20,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                  height: 1.4,
+                                ),
+                                textAlign: TextAlign.center,
                               ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                     ),
                   ),
                 ),
-
                 const SizedBox(height: 20),
 
                 // لیست گزینه‌ها با انیمیشن تاخیری
